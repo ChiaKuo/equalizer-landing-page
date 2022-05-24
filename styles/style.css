@@ -136,21 +136,23 @@ table {
 body {
   background-image: url(../assets/bg-main-desktop.png);
   background-repeat: no-repeat;
-  background-position: 70% 15%;
+  background-position: 105% 60%;
   position: relative;
+  overflow-x: hidden;
 }
 
 body .pattern-desktop {
   position: absolute;
   top: -50px;
-  right: 0;
+  right: -170px;
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1110px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 h1,
@@ -165,7 +167,7 @@ button {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
-header img {
+header .logo-desktop {
   margin: 40px 0 100px 0;
 }
 
@@ -183,4 +185,25 @@ header img {
   font-weight: 400;
   line-height: 34px;
   width: 70%;
+}
+
+.main-box {
+  margin: 300px 0;
+  height: 700px;
+  background-color: black;
+  border-radius: 25px;
+  position: relative;
+}
+
+.main-box .pattern-two {
+  margin-left: 30%;
+  margin-right: 70%;
+}
+
+.main-box .phone {
+  width: 312px;
+  height: 642px;
+  position: absolute;
+  left: 100px;
+  top: -160px;
 }

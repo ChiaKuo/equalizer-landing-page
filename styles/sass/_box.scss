@@ -1,0 +1,22 @@
+.main-box {
+  margin: 300px 0;
+  height: 700px;
+  background-color: black;
+  border-radius: 25px;
+  position: relative;
+
+  .pattern-two {
+    margin-left: 30%;
+    margin-right: 70%;
+  }
+
+  .phone {
+    width: 312px;
+    height: 642px;
+    position: absolute;
+    left: 100px;
+    top: -160px;
+  }
+
+
+}
