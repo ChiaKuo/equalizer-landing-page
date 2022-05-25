@@ -188,12 +188,12 @@ header .logo-desktop {
 }
 
 .main-box {
-  margin: 300px 0;
+  margin: 321px 0px 202px 0px;
   height: 600px;
   background-color: black;
   border-radius: 25px;
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 
 .main-box .pattern-two {
@@ -209,7 +209,7 @@ header .logo-desktop {
   height: 642px;
   position: absolute;
   left: 100px;
-  top: -160px;
+  top: -210px;
 }
 
 .main-box .box-text {
@@ -289,6 +289,8 @@ header .logo-desktop {
 .main-box .box-text .apple {
   background-color: #191826;
   color: #FCFAF9;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .main-box .box-text .apple img {
@@ -296,11 +298,68 @@ header .logo-desktop {
           transform: translateY(-2px);
 }
 
+.main-box .box-text .apple:hover {
+  cursor: pointer;
+  background-color: #66E2DC;
+}
+
 .main-box .box-text .android {
   background-color: #FCFAF9;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main-box .box-text .android:hover {
+  cursor: pointer;
+  background-color: #FFB964;
 }
 
 .main-box .box-text .android img,
 .main-box .box-text .apple img {
   padding-right: 5px;
+}
+
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 91px;
+}
+
+.footer-container .logo-desktop {
+  width: 147px;
+}
+
+.footer-container .footer-text {
+  width: 45%;
+}
+
+.footer-container .footer-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer-container .footer-icons {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-container .footer-icons a:hover {
+  color: yellow;
 }
