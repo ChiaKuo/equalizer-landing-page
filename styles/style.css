@@ -392,9 +392,6 @@ header .logo-desktop {
 }
 
 @media only screen and (max-width: 888px) {
-  body {
-    background-color: yellow;
-  }
   body .pattern-desktop {
     top: -32px;
     right: -80px;
@@ -463,14 +460,14 @@ header .logo-desktop {
 }
 
 @media only screen and (max-width: 590px) {
-  body {
-    background-color: lightblue;
-  }
   body .pattern-desktop {
     display: none;
   }
+  header .logo-desktop {
+    margin: 40px 0 64px 0;
+  }
   .landing-text h1 {
-    margin-bottom: 28px;
+    margin-bottom: 20px;
     font-size: 40px;
     line-height: 48px;
     font-weight: 700;
@@ -481,6 +478,37 @@ header .logo-desktop {
     font-size: 16px;
     line-height: 26px;
     width: 100%;
+  }
+  .boxwrap {
+    width: 100%;
+  }
+  .main-box {
+    margin: 166px 0px 390px 0px;
+  }
+  .main-box .pattern-two {
+    width: 280px;
+    height: 420px;
+    top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .main-box .phone {
+    position: relative;
+    width: 208.97px;
+    height: 430px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    left: 50%;
+    top: -98px;
+  }
+  .main-box .box-text {
+    width: 100%;
+    top: 380px;
+    right: 0px;
+    padding: 48px 36px 40px 36px;
   }
   .footer-container {
     -webkit-box-orient: vertical;

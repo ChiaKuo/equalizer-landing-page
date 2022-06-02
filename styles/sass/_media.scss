@@ -2,8 +2,6 @@
 
   // Overall Media Queries
   body {
-    background-color: yellow;
-
     .pattern-desktop {
       top: -32px;
       right: -80px;
@@ -98,11 +96,15 @@
 
   // Overall Media Queries
   body {
-    background-color: lightblue;
-
     .pattern-desktop {
       display: none;
+    }
+  }
 
+  // Header Media Queries
+  header {
+    .logo-desktop {
+      margin: 40px 0 64px 0;
     }
   }
 
@@ -111,7 +113,7 @@
   .landing-text {
 
     h1 {
-      margin-bottom: 28px;
+      margin-bottom: 20px;
       font-size: 40px;
       line-height: 48px;
       font-weight: 700;
@@ -127,6 +129,45 @@
 
   }
 
+
+  // Box Media Queries
+
+  .boxwrap {
+    width: 100%;
+  }
+
+  .main-box {
+    margin: 166px 0px 390px 0px;
+
+    .pattern-two {
+      width: 280px;
+      height: 420px;
+      top: 0px;
+      margin-left: 0;
+      margin-right: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .phone {
+      position: relative;
+      width: 208.97px;
+      height: 430px;
+      transform: translateX(-50%);
+      left: 50%;
+      top: -98px;
+    }
+
+    .box-text {
+
+      width: 100%;
+      top: 380px;
+      right: 0px;
+      padding: 48px 36px 40px 36px;
+
+    }
+
+  }
 
   // Footer Media Queries
   .footer-container {
