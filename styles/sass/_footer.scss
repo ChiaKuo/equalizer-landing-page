@@ -5,27 +5,47 @@
   align-items: flex-start;
   margin-bottom: 91px;
 
-  .logo-desktop {
-    width: 147px;
-  }
+  .footer-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 65%;
 
-  .footer-text {
-    width: 45%;
+    .footer-logo {
+      width: 35%;
+    }
 
-    p {
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 24px;
+
+    .footer-text {
+      width: 65%;
+
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 80%;
+        min-width: 366px;
+
+        span {
+          font-weight: 800;
+        }
+      }
     }
   }
 
   .footer-icons {
-    width: 10%;
-    display: flex;
-    justify-content: space-between;
+    width: 35%;
+    text-align: end;
+    align-self: center;
+
+
+    a {
+      margin-left: 20px;
+    }
 
     a:hover {
-      color: yellow;
+      filter: invert(57%) sepia(98%) saturate(1491%) hue-rotate(324deg) brightness(98%) contrast(101%);
     }
   }
 }
