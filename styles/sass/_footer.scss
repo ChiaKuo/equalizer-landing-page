@@ -42,10 +42,11 @@
 
     a {
       margin-left: 20px;
+
+      &:hover {
+        filter: invert(57%) sepia(98%) saturate(1491%) hue-rotate(324deg) brightness(98%) contrast(101%);
+      }
     }
 
-    a:hover {
-      filter: invert(57%) sepia(98%) saturate(1491%) hue-rotate(324deg) brightness(98%) contrast(101%);
-    }
   }
 }

@@ -141,12 +141,6 @@ body {
   overflow-x: hidden;
 }
 
-body .pattern-desktop {
-  position: absolute;
-  top: -50px;
-  right: -170px;
-}
-
 .wrapper {
   max-width: 1110px;
   width: 90%;
@@ -165,6 +159,12 @@ p,
 a,
 button {
   font-family: 'IBM Plex Sans', sans-serif;
+}
+
+header .pattern-desktop {
+  position: absolute;
+  top: -50px;
+  right: -170px;
 }
 
 header .logo-desktop {

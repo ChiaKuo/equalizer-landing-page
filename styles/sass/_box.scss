@@ -93,21 +93,22 @@
       img {
         transform: translateY(-2px);
       }
+
+      &:hover {
+        cursor: pointer;
+        background-color: #66E2DC;
+      }
     }
 
-    .apple:hover {
-      cursor: pointer;
-      background-color: #66E2DC;
-    }
 
     .android {
       background-color: #FCFAF9;
       transition: 0.3s;
-    }
 
-    .android:hover {
-      cursor: pointer;
-      background-color: #FFB964;
+      &:hover {
+        cursor: pointer;
+        background-color: #FFB964;
+      }
     }
 
     .android,
